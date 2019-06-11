@@ -1,0 +1,152 @@
+nav {
+    width: 960px;  
+    margin: 0px auto;
+}
+nav:before {
+    content:'';
+    display: block;
+    height: 50px;
+    width: 930px;
+    background: #000;
+    position: absolute;
+    left: 285px;
+    z-index: -1;
+}
+ul {
+    margin: 0px;
+    padding: 0%;
+    list-style: none;
+    height: 50px;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    color: #ffffff;
+    height: 50px;
+    display: block;
+    padding: 0 20px;
+    width: 70px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px
+}
+ul li a:hover {
+    background: green;
+}
+.Pictures {
+    background: #000;
+    width: 930px;
+    top: 58px;
+    height: 650px;
+    display: block;
+    position: absolute;
+    left: 285px;
+}
+.contener {
+    position: absolute;    
+    top: 150px; 
+    left: 325px;
+    display: block;
+    clip-path: polygon(57% 14%, 88% 33%, 88% 70%, 57% 89%, 26% 70%, 26% 33%); 
+}
+.two {
+    position: absolute;    
+    top: 157px; 
+    left: 530px;
+    display: block;
+    clip-path: polygon(50% 11%, 80% 30%, 81% 68%, 49% 87%, 18% 68%, 18% 30%);
+}
+.tree {
+    position: absolute;    
+    top: 169px; 
+    left: 742px;
+    display: block;
+    clip-path: polygon(50% 9%, 93% 31%, 93% 75%, 52% 97%, 11% 75%, 10% 30%);
+}
+.four {
+    position: absolute;    
+    top: 151px; 
+    left: 920px;
+    display: block;
+    clip-path: polygon(51% 15%, 92% 34%, 92% 72%, 51% 92%, 10% 73%, 9% 34%);
+}
+.five {
+    position: absolute;    
+    top: 310px; 
+    left: 292px;
+    display: block;
+    clip-path: polygon(51% 15%, 92% 34%, 92% 72%, 51% 92%, 10% 73%, 9% 34%);
+}
+.six {
+    position: absolute;    
+    top: 310px; 
+    left: 450px;
+    display: block;
+    clip-path: polygon(52% 13%, 88% 32%, 88% 70%, 52% 89%, 16% 70%, 16% 32% );
+}
+.seven {
+    position: absolute;    
+    top: 293px; 
+    left: 616px;
+    display: block;
+    clip-path: polygon(51% 21%, 83% 39%, 83% 75%, 51% 94%, 21% 75%, 21% 39% );
+}
+.eight {
+    position: absolute;    
+    top: 285px; 
+    left: 780px;
+    display: block;
+    clip-path: polygon(55% 21%, 85% 37%, 85% 70%, 56% 87%, 26% 71%, 26% 38% );
+}
+.nine {
+    position: absolute;    
+    top: 285px; 
+    left: 968px;
+    display: block;
+    clip-path: polygon(55% 20%, 85% 35%, 85% 65%, 55% 80%, 25% 65%, 25% 35%);
+}
+.ten{
+    position: absolute;    
+    top: 469px; 
+    left: 371px;
+    display: block;
+    clip-path: polygon(50% 13%, 90% 32%, 90% 69%, 50% 88%, 10% 69%, 10% 32%);
+}
+.eleven {
+    position: absolute;    
+    top: 461px; 
+    left: 535px;
+    display: block;
+    clip-path: polygon(52% 16%, 86% 34%, 86% 71%, 51% 90%, 17% 70%, 17% 34%);
+}
+.twelve {
+    position: absolute;    
+    top: 450px; 
+    left: 721px;
+    display: block;
+    clip-path: polygon(50% 19%, 83% 37%, 83% 72%, 50% 89%, 18% 72%, 17% 37%);
+}
+.thirteen{
+    position: absolute;    
+    top: 452px; 
+    left: 895px;
+    display: block;
+    clip-path: polygon(50% 19%, 81% 37%, 81% 73%, 50% 90%, 19% 72%, 19% 37%);
+}
+.fon{
+    position: absolute;
+    height: 400px;
+    width: 930px;
+    background: green;
+    top: 708px;
+    left: 285px;
+    display: block;
+}
+.author{
+    position: absolute;
+    display: block;
+    top: 708px;
+    left: 285px;
+    clip-path: polygon(50% 17%, 87% 37%, 88% 74%, 50% 92%, 11% 73%, 12% 36%);
+}
